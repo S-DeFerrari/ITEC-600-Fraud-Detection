@@ -3,18 +3,11 @@
 Here's our first attempt at using data to create a table:
 """
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 
 # Load the pickled model
-@st.cache(allow_output_mutation=True)
-def load_model(file_path):
-    with open(file_path, 'rb') as f:
-        model = pickle.load(f)
-    return model
-
-# Load your model (replace 'your_model.pkl' with the path to your pickled model)
-model = load_model("gbmModel1.pkl")
+model = joblib.load('gbm_model.sav')
 
 # Title of the app
 st.title("Transaction Classifier")

@@ -5,7 +5,8 @@ Here's our first attempt at using data to create a table:
 import streamlit as st
 import joblib
 import numpy as np
-from sklearn.ensemble import GradientBoostingClassifier
+# from sklearn.ensemble import GradientBoostingClassifier
+import sklearn
 
 # Load the pickled model
 model = joblib.load('gbm_model.sav')

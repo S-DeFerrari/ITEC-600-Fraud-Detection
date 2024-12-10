@@ -2,9 +2,7 @@
 # My first app
 Here's our first attempt at using data to create a table:
 """
-import learn as learn
 import streamlit as st
-import pandas as pd
 import pickle
 from sklearn.ensemble import GradientBoostingClassifier
 import numpy as np

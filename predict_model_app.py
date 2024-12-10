@@ -6,8 +6,7 @@ import streamlit as st
 import joblib
 import numpy as np
 # from sklearn.ensemble import GradientBoostingClassifier
-import sklearn
-
+from sklearn.ensemble import GradientBoostingClassifier
 # Load the pickled model
 model = joblib.load('gbm_model.sav')
 

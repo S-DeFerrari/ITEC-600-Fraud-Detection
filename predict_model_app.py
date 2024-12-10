@@ -4,7 +4,6 @@ Here's our first attempt at using data to create a table:
 """
 import streamlit as st
 import pickle
-from sklearn.ensemble import GradientBoostingClassifier
 import numpy as np
 
 # Load the pickled model

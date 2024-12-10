@@ -3,4 +3,3 @@ streamlit
 scikit-learn
 joblib
 numpy	
-sklearn

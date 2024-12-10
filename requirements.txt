@@ -3,4 +3,4 @@ streamlit
 scikit-learn
 joblib
 numpy	
-prediction
+

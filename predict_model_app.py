@@ -5,6 +5,7 @@ Here's our first attempt at using data to create a table:
 import streamlit as st
 import joblib
 import numpy as np
+from prediction import predict
 
 # Load the pickled model
 model = joblib.load('gbm_model.sav')
